@@ -1,0 +1,7 @@
+image: latest
+
+build project:
+  script:
+    - npm install
+    - npm test
+    - npm build
