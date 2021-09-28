@@ -48,7 +48,7 @@ class Game {
             this.secretWord = newWord.toUpperCase();
             this.attempts = this.options.attempts;
             this.status = STATUS_PLAYING;
-            this.chars = [];
+            //this.chars = [];
         });
     }
 
